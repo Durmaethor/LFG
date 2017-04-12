@@ -35,7 +35,7 @@ nav ul li {
 /* Main header*/
 
 .main-header {
-    height: 900px;
+    height: 850px;
     background:  #fff url(/images/gamer-wallpaper-3.jpg) fixed no-repeat center;
     background-size: cover;
     margin: 0;
@@ -44,7 +44,7 @@ nav ul li {
 
 .name {
     text-align: center;
-    padding-top: 375px;
+    padding-top: 300px;
     color: white;
     padding-right: 550px;
 }
