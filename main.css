@@ -52,3 +52,17 @@ nav ul li {
 h1 {
     margin: 0;
 }
+
+/* First section */
+
+.section-1 {
+    background-color: #2D2D2D;
+    margin: 0;
+    height: 600px;
+}
+
+h2 {
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
