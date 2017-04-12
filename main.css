@@ -1,0 +1,32 @@
+
+/* Main styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Navigation */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%
+}
+
+/* Main header*/
+
+.name {
+    text-align: center;
+    padding-top: 125px;
+}
