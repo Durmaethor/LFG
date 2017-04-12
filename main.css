@@ -19,12 +19,28 @@ nav ul {
     justify-content: space-around;
     list-style: none;
     padding: 0;
+    margin: 0;
     position: fixed;
     height: 50px;
-    width: 100%
+    width: 100%;
+    color: white;
+    background: #2D2D2D;
+}
+
+nav ul li {
+    padding: 5px;
+    margin-top: 10px;
 }
 
 /* Main header*/
+
+.main-header {
+    height: 900px;
+    background:  #fff url(/images/gamer-wallpaper-3.jpg) fixed no-repeat center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
 
 .name {
     text-align: center;
