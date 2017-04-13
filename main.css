@@ -13,45 +13,40 @@ body {
 
 /* Main Navigation */
 
-nav ul {
+.navi ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
     padding: 0;
     margin: 0;
-    position: fixed;
+    position: relative;
     height: 50px;
     width: 100%;
     color: white;
     background: #2D2D2D;
 }
 
-nav ul li {
+.navi ul li {
     padding: 5px;
     margin-top: 10px;
 }
 
-/* Main header*/
-
-.main-header {
-    height: 850px;
-    background:  #fff url(/images/gamer-wallpaper-3.jpg) fixed no-repeat center;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+/* Carousel CSS */
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.name {
-    text-align: center;
-    padding-top: 300px;
-    color: white;
-    padding-right: 550px;
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1 {
-    margin: 0;
-}
 
 /* First section */
 
