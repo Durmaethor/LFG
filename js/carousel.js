@@ -1,5 +1,11 @@
 require('bootstrap')
 
+
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
+
 var $item = $('.carousel .item'); 
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
@@ -19,9 +25,4 @@ $('.carousel img').each(function() {
 $(window).on('resize', function (){
   $wHeight = $(window).height();
   $item.height($wHeight);
-});
-
-$('.carousel').carousel({
-  interval: 6000,
-  pause: "false"
 });
