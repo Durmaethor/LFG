@@ -32,22 +32,6 @@ body {
     margin-top: 10px;
 }
 
-/* Carousel CSS */
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
 /* First section */
 
 .section-1 {

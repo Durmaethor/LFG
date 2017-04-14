@@ -1,6 +1,4 @@
-
 require('bootstrap')
-
 
 var $item = $('.carousel .item'); 
 var $wHeight = $(window).height();
