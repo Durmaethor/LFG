@@ -55,8 +55,9 @@ h3 {
 
 .carousel-caption {
     padding-bottom: 250px;
-    font-size: 36px;
+    font-size: 48px;
     font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 2px #2D2D2D
 }
 
 
