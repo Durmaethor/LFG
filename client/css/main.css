@@ -11,6 +11,11 @@ body {
     margin: 0;
 }
 
+img {
+    margin: 0;
+    max-width: 100%;
+}
+
 /* Main Navigation */
 
 .navi ul {
@@ -59,16 +64,15 @@ h3 {
 
 h2 {
     padding: 15px;
-    margin: 0;
+    margin: 25px;
     text-align: center;
-    color: #fff;
-    background-color: #2d2d2d;
+    color: #000;
+    background-color: #fff;
 }
 
 .section-1 {
-    background-color: #2D2D2D;
+    background-color: #fff;
     margin: 0;
-    height: 400px;
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
@@ -77,9 +81,22 @@ h2 {
 }
 
 .latest {
+    margin: 5px;
     height: 330px;
     width: 260px;
     background-color: lightgrey;
 }
 
+/* Section 2 ------------------------ */
+
+.section-2 {
+    background-color: #fff;
+    margin: 0;
+    width: 100%;
+}
+
+.hottest {
+    width: 80%;
+    margin: auto;
+}
 
