@@ -100,3 +100,33 @@ h2 {
     margin: auto;
 }
 
+/* Section 3 ---------------------- */
+
+.news-1 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.news-2 {
+    width: 50%;
+    float: right;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+.news-3 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: darkgrey;
+}
+
+.news-4 {
+    width: 50%;
+    float: right;
+    height: 500px;
+    background-color: lightgrey;
+}
+
