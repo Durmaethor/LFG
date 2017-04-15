@@ -131,3 +131,11 @@ h2 {
     background-color: lightgrey;
 }
 
+/* FOOTER ------------------------ */
+
+footer {
+    height: 250px;
+    background-color: #2D2D2D;
+    text-align: center;
+}
+
