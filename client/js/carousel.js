@@ -1,5 +1,5 @@
-require('bootstrap')
 
+// JS code for Carousel
 
 $('.carousel').carousel({
   interval: 6000,
