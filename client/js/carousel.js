@@ -1,11 +1,6 @@
 
 // JS code for Carousel
 
-$('.carousel').carousel({
-  interval: 3000,
-  pause: "false"
-});
-
 var $item = $('.carousel .item'); 
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
@@ -26,3 +21,9 @@ $(window).on('resize', function (){
   $wHeight = $(window).height();
   $item.height($wHeight);
 });
+
+$('.carousel').carousel({
+  interval: 6000,
+  pause: "false"
+});
+
