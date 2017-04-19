@@ -22,8 +22,10 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 });
 
-$('.carousel').carousel({
-  interval: 3000,
-  pause: 'false'
+$(document).ready(function(){
+  $('.Carousel').carousel({
+    interval: 3000,
+    pause: 'false'
+  })
 });
 
