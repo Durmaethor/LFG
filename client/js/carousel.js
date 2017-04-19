@@ -23,7 +23,7 @@ $(window).on('resize', function (){
 });
 
 $(document).ready(function(){
-  $('.Carousel').carousel({
+  $('.carousel').carousel({
     interval: 3000,
     pause: 'false'
   })
