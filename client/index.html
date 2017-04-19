@@ -23,9 +23,9 @@
 
     <div class="navi">
         <ul>
-            <li>About Us</li>
+            <li><a ui-sref=".about">About Us</a></li>
             <li>Games List</li>
-            <li><a href="./views/home/home.html">LOGO</a></li>
+            <li><a ui-sref=".home">LOGO</a></li>
             <li>My Account</li>
             <li>Cart</li>
         </ul>
@@ -33,13 +33,13 @@
 
 
 
-    <div ui-view>
+    <ui-view>
     <!-- BEGIN UI ROUTING -->
 
         
 
     <!-- END UI ROUTING -->
-    </div>
+    </ui-view>
 
 
     <div>
