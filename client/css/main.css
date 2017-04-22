@@ -19,6 +19,12 @@ img {
 
 /* Main Navigation */
 
+.navi {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .navi ul {
     display: flex;
     flex-direction: row;
@@ -39,6 +45,10 @@ img {
 }
 
 /* Carousel CSS */
+
+#mycarousel {
+    padding-top: 50px;
+}
 
 h3 {
   display: inline-block;
