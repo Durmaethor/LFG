@@ -1,5 +1,8 @@
 
 // JS code for Carousel
+var $ = jQuery.noConflict();
+
+$(document).ready(function(){
 
 var $item = $('.carousel .item'); 
 var $wHeight = $(window).height();
@@ -22,10 +25,11 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 });
 
-$(document).ready(function(){
+
   $('.carousel').carousel({
     interval: 3000,
-    pause: 'false'
+    pause: false
   })
+  
 });
 
