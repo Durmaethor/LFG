@@ -99,6 +99,13 @@ h2 {
     background-color: lightgrey;
 }
 
+.popular {
+    margin: 5px;
+    height: 330px;
+    width: 260px;
+    background-color: lightgrey;
+}
+
 /* Section 2 ------------------------ */
 
 .section-2 {

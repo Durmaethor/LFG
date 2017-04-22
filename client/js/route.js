@@ -17,6 +17,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         .state('about', {
             url: '/about',
             templateUrl: '../views/about/about.html'
-        });
+        })
+
+        .state('games', {
+            url: '/games',
+            templateUrl: '../views/games/games.html'
+        })
         
 });
